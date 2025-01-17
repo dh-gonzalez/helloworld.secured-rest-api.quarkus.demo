@@ -1,0 +1,10 @@
+quarkus:
+  log:
+    level: INFO
+    category:
+      "io.quarkus":
+        level: INFO
+      "helloworld.secured_rest_api.quarkus.demo":
+        level: DEBUG
+  swagger-ui:
+    always-include: true
