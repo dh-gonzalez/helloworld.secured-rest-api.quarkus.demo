@@ -1,0 +1,5 @@
+jwt:
+  secret: S3cr3tK3y4JWT-HS512_uSE$Th1s-K3y-FoR-SecureT0k3nSignatur3
+  algorithm: HmacSHA512
+  # Delay in seconds
+  expiration: 3600 # 1 hour
