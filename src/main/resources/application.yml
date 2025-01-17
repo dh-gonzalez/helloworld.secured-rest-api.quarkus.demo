@@ -1,0 +1,24 @@
+quarkus:
+  log:
+    level: INFO
+    category:
+      "io.quarkus":
+        level: INFO
+      "helloworld.secured_rest_api.quarkus.demo":
+        level: DEBUG
+  swagger-ui:
+    always-include: true
+  http:
+    ssl:
+      certificate:
+        # The format used for the keystore. It could be set to JKS in case it is a JKS file
+        key-store-file-type: JKS
+        # The path to the keystore containing the certificate
+        key-store-file: keystore/helloworld-demo-keystore.p12
+        # The password used to generate the certificate
+        key-store-password: password
+        # The alias mapped to the certificate
+        key-store-key-alias: helloworld-demo-keystore
+    insecure-requests: redirect
+    # HTTPS port
+    ssl-port: 8443
