@@ -20,7 +20,7 @@
         <jacoco.maven.plugin.version>0.8.13</jacoco.maven.plugin.version>
         <karate.junit5.version>1.4.1</karate.junit5.version>
         <org.graalvm.js.js.version>23.0.8</org.graalvm.js.js.version>
-        <graalvm.version>23.1.7</graalvm.version>
+        <graalvm.version>24.2.1</graalvm.version>
         <!-- Others -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
