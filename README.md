@@ -73,6 +73,10 @@ Demo of a quarkus application which exposes a secured REST API
 ### End2End tests HTML report
 * located at `target\karate-reports\karate-summary.html`
 
+### TODOs
+* Enable files `Dockerfile.legacy-jar`, `Dockerfile.native` and `Dockerfile.native-micro` for building corresponding docker images
+* Enable corresponding docker build in CI/CD
+
 [Swagger UI]: https://localhost:8443/q/swagger-ui/
 [Swagger api-docs]: https://localhost:8443/q/openapi
 [Quarkus health]: https://localhost:8443/q/health
