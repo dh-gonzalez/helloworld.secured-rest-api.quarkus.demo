@@ -7,9 +7,18 @@
     "[java]": {
         "editor.tabSize": 4,
         "editor.detectIndentation": false,
+        "editor.defaultFormatter": "redhat.java"
     },
-    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    // Java configuration
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Users\\Marisol-David\\MesProgrammes\\jdk-eclipse-temurin-21.0.5+11",
+            "default": true
+        }
+    ],
     // Maven commands
+    "maven.executable.path": "C:\\Users\\Marisol-David\\MesProgrammes\\apache-maven-3.9.9\\bin\\mvn",
     "maven.terminal.favorites": [
         {
             "alias": "secured-rest-api.quarkus.demo clean package",
