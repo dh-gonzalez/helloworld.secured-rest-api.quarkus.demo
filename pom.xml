@@ -19,7 +19,7 @@
         <surefire-plugin.version>3.5.3</surefire-plugin.version>
         <jacoco.maven.plugin.version>0.8.13</jacoco.maven.plugin.version>
         <karate.junit5.version>1.4.1</karate.junit5.version>
-        <graalvm.version>24.1.2</graalvm.version>
+        <graalvm.version>25.0.2</graalvm.version>
         <!-- Others -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
