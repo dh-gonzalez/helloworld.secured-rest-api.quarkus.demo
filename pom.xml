@@ -17,7 +17,7 @@
         <skipITs>true</skipITs>
         <!-- Test dependencies -->
         <surefire-plugin.version>3.5.3</surefire-plugin.version>
-        <jacoco.maven.plugin.version>0.8.13</jacoco.maven.plugin.version>
+        <jacoco.maven.plugin.version>0.8.14</jacoco.maven.plugin.version>
         <karate.junit5.version>1.4.1</karate.junit5.version>
         <graalvm.version>24.1.2</graalvm.version>
         <!-- Others -->
