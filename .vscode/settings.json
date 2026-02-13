@@ -1,0 +1,37 @@
+{
+    // Save actions : code formatter + organize imports
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+    },
+    "editor.formatOnSave": true,
+    "[java]": {
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "redhat.java"
+    },
+    // Java configuration
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Users\\Marisol-David\\MesProgrammes\\jdk-eclipse-temurin-21.0.5+11",
+            "default": true
+        }
+    ],
+    // Maven commands
+    "maven.executable.path": "C:\\Users\\Marisol-David\\MesProgrammes\\apache-maven-3.9.9\\bin\\mvn",
+    "maven.terminal.favorites": [
+        {
+            "alias": "secured-rest-api.quarkus.demo clean package",
+            "command": "-e clean package",
+        },
+        {
+            "alias": "secured-rest-api.quarkus.demo clean package -DskipTests",
+            "command": "-e clean package -DskipTests",
+        },
+        {
+            "alias": "secured-rest-api.quarkus.demo quarkus:dev",
+            "command": "-e quarkus:dev",
+        }
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

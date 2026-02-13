@@ -1,0 +1,6 @@
+quarkus:
+  http:
+    ssl:
+      certificate:
+        # The path to the keystore containing the certificate
+        key-store-file: src/main/resources/keystore/helloworld-demo-keystore.p12

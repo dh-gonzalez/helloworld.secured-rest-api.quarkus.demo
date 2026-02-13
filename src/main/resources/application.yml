@@ -1,0 +1,36 @@
+quarkus:
+  log:
+    level: INFO
+    category:
+      "io.quarkus":
+        level: INFO
+      "helloworld.secured_rest_api.quarkus.demo":
+        level: DEBUG
+  swagger-ui:
+    enable: true
+    always-include: true
+  smallrye-openapi:
+    security-scheme: jwt
+  http:
+    ssl:
+      certificate:
+        # The format used for the keystore. It could be set to JKS in case it is a JKS file
+        key-store-file-type: JKS
+        # The path to the keystore containing the certificate
+        key-store-file: /keystore/helloworld-demo-keystore.p12
+        # The password used to generate the certificate
+        key-store-password: password
+        # The alias mapped to the certificate
+        key-store-key-alias: helloworld-demo-keystore
+    # HTTPS port
+    ssl-port: 8443
+    # Redirect all HTTP request to HTTPS
+    insecure-requests: redirect
+    # Disable automatic JWT extraction
+    auth:
+      proactive: false
+jwt:
+  secret: S3cr3tK3y4JWT-HS512_uSE$Th1s-K3y-FoR-SecureT0k3nSignatur3
+  algorithm: HmacSHA512
+  # Delay in seconds
+  expiration: 3600 # 1 hour
