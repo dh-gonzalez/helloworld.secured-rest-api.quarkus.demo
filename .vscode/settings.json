@@ -13,12 +13,12 @@
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-21",
-            "path": "C:\\Users\\Marisol-David\\MesProgrammes\\jdk-eclipse-temurin-21.0.5+11",
+            "path": "/home/david/MesProgrammes/jdk-temurin-21.0.11+10",
             "default": true
         }
     ],
     // Maven commands
-    "maven.executable.path": "C:\\Users\\Marisol-David\\MesProgrammes\\apache-maven-3.9.9\\bin\\mvn",
+    "maven.executable.path": "/home/david/MesProgrammes/apache-maven-3.9.16/bin/mvn",
     "maven.terminal.favorites": [
         {
             "alias": "secured-rest-api.quarkus.demo clean package",
