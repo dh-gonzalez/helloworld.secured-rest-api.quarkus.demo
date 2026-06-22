@@ -1,4 +1,6 @@
 quarkus:
+  console:
+    enabled: false
   log:
     level: INFO
     category:
